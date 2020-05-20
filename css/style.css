@@ -1,8 +1,8 @@
 /* font-family: 'Playfair Display SC', serif;
 font-family: 'Average', serif; */
-
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 body {
-    font-family: "Average", serif;
+  font-family: "Playfair Display", serif;
 }
 
 h1,
@@ -11,5 +11,32 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Playfair Display SC", serif;
+  font-family: "Playfair Display SC", serif;
+}
+/* .jumbotron .container {
+  background: url("../img/bird-of-paradise.jpg") center/ contain no-repeat;
+  height: auto;
+} */
+.jumbotron {
+  background: none;
+}
+#lander {
+  max-width: 100%;
+  height: auto;
+}
+a {
+  font-size: small;
+}
+.navbar-brand {
+  font-size: 1.6rem;
+}
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-weight: 600;
+}
+.navbar-dark .navbar-toggler {
+  color: rgba(255, 255, 255, 0.5);
+  border-color: rgba(255, 255, 255, 0.5);
 }
